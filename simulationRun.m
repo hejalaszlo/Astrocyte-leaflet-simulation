@@ -297,7 +297,7 @@ function simulationRun(this, varargin)
 	for i = 1:ceil(tSim / tStep)
 		% ----------- Glu -----------------
 		% Release Glu after 10 ms (this was introduced to let the transporters to reach steady-state)
-		if i * tStep == 10000%rem(i * tStep, 10) == 0
+		if i * tStep == 10%rem(i * tStep, 10) == 0
 			posGluReleased = ones(3, this.Simulation.parameters.NGluReleased) .* round(size(space)' / 2); % Center of the space
 			posGlu = horzcat(posGlu, posGluReleased);
 			Glubound = horzcat(Glubound, zeros(1, this.Simulation.parameters.NGluReleased));
