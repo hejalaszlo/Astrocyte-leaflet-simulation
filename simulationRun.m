@@ -1,5 +1,5 @@
 function simulationRun(this, varargin)
-	tSim = 22;																	% Simulation time (ms)
+	tSim = 30;																	% Simulation time (ms)
 	if nargin > 1
 		tSim = varargin{1};
 	end
