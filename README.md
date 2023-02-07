@@ -1,5 +1,5 @@
 # Astrocyte-leaflet-simulation
- Matlab class and helper functions to simulate astrocytic calcium and sodium dynamics in thin astrocytic processes of genuine, experimentally obtained geometries.
+Matlab class and helper functions to simulate astrocytic calcium and sodium dynamics in thin astrocytic processes of genuine, experimentally obtained geometries.
 
 To simulate Ca2+ dynamics in experimentally determined synapses, do the followings:
 
