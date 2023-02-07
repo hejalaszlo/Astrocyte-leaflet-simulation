@@ -25,6 +25,7 @@ synapses(1).simulationRun;
 8) The simulation results can be viewed at synapses(1).Simulation or you can export it to a .mat file:
 synapses(1).simulationExport("synapse1_simulation");
 
+# Citation
 If you find this tool useful, please, cite the following publication:
 Heja L, Szabo Z, Peter M, Kardos J. Spontaneous Ca2+ Fluctuations Arise in Thin Astrocytic Processes With Real 3D Geometry. Front Cell Neurosci., 15:617989, 2021
 https://doi.org/10.3389/fncel.2021.617989
