@@ -301,7 +301,6 @@ classdef Synapse < handle
 
 		% Complex methods
 		simulationRun(this, varargin)
-		simulationRunNoTransporterStates(this)
 		simulationRunOnlyNCX(this)
 		exportObjects(this, filename)
     end
